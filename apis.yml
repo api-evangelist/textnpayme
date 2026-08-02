@@ -1,7 +1,30 @@
 aid: textnpayme
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/textnpayme.png
 name: Text'nPayMe
-description: Text'nPayMe is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Text'nPayMe is an award-winning B2B fintech company, established in Armenia and
+  incorporated in the USA in 2022, that builds embedded payment solutions for banks,
+  fintechs, telecoms, and online shops. Its two core products are a Payment Keyboard
+  SDK, which embeds send-money transactions directly inside 150+ messaging, social,
+  and gaming apps via a payment keyboard for iOS, Android, and a Chrome extension,
+  and a Payment Gateway Hub for transaction routing, reconciliation, and reporting.
+  The company markets an "Apex Security Layer" with proprietary encryption and risk
+  management, supports cross-border payments, and joined the 500 Global accelerator
+  after winning the Entrepreneurship World Cup 2022 National Finals. The SDK is
+  delivered to enterprise customers through direct integration engagements rather than
+  a public self-serve developer portal, so no public API specification, developer
+  documentation, or client packages are currently published.
 url: https://raw.githubusercontent.com/api-evangelist/textnpayme/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Payments
+- Fintech
+- Embedded Payments
+- Payment Gateway
+- SDK
+- Mobile Payments
+- Banking
+- Cross-Border Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://textnpayme.com
+- type: About
+  url: https://textnpayme.com/about.html
+- type: Contact
+  url: https://textnpayme.com/contact.html
+- type: PrivacyPolicy
+  url: https://textnpayme.com/privacy.html
+- type: DomainSecurity
+  url: security/textnpayme-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
